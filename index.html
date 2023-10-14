@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENERGY AUTOMATION: Economize dinheiro e proteja o meio ambiente</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-size: cover;
+            background-position: center;
+            background-color:#007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+            background-attachment: fixed; /* Efeito de Paralaxe */
+        }
+
+        h1 {
+            color: black;
+            font-size: 2.5em;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .cta {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1.2em;
+            margin-top: 20px;
+            transition: background-color 0.3s, transform 0.2s; /* Efeito Hover */
+        }
+
+        .cta:hover {
+            background-color: #0056b3;
+            transform: scale(1.05); /* Efeito Hover */
+        }
+
+        .benefits {
+            margin: 30px 0;
+        }
+
+        .benefits ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .benefits li {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .testimonial {
+            width: 48%;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s; /* Efeito Hover */
+        }
+
+        .testimonial:hover {
+            transform: scale(1.05); /* Efeito Hover */
+        }
+
+        .contact {
+            margin: 30px 0;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Botão de Rolar para Cima */
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color:black;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 50%;
+            text-align: center;
+            cursor: pointer;
+            opacity: 1;
+            transition: opacity 0.3s;
+        }
+
+        .scroll-to-top:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://github.com/vaps41/TCC/blob/main/LOGO.png?raw=true" alt="Energy Automation Logo">
+        </div>
+        <div class="rellax" data-rellax-speed="-2">
+            <h1>Economize dinheiro e proteja o meio ambiente</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p>A ENERGY AUTOMATION é uma empresa de automação de energia que oferece soluções para residências. Nosso objetivo é ajudar nossos clientes a economizar dinheiro e reduzir seu impacto ambiental.</p>
+        <p>A automação de energia permite que os clientes monitorem e controlem seu consumo de energia em tempo real. Isso pode ajudar os clientes a identificar oportunidades de redução de custos, como desligar dispositivos desnecessários.</p>
+        <div class="benefits">
+            <h2>Benefícios da automação de energia:</h2>
+            <ul>
+                <li>Economia de energia: Os sistemas de automação de energia podem ajudar os clientes a economizar até 20% em suas contas de energia.</li>
+                <li><b>Maior conforto: </b>Os sistemas de automação de energia podem ser usados para controlar a temperatura, a iluminação e outros dispositivos em sua casa, proporcionando maior conforto e comodidade.</li>
+                <li><b>Segurança: </b>Os sistemas de automação de energia podem ser usados para controlar o acesso a sua casa, proporcionando maior segurança.</li>
+                <li><b>Facilidade de uso: </b>Os sistemas de automação de energia são fáceis de usar e podem ser controlados por meio de um smartphone ou tablet.</li>
+            </ul>
+        </div>
+        <div class="testimonials">
+            <h2>Depoimentos:</h2>
+            <div class="testimonial">
+                <p>"Estou muito satisfeito com os serviços da ENERGY AUTOMATION. O sistema de automação de energia que eles instalaram em minha casa me ajudou a economizar muito dinheiro em minha conta de energia." - João da Silva</p>
+            </div>
+            <div class="testimonial">
+                <p>"A automação de energia da ENERGY AUTOMATION tornou minha casa muito mais confortável e segura. Estou muito feliz com a escolha que fiz." - Maria de Souza</p>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Entre em contato:</h2>
+            <form id="msn_suporte" action="https://formsubmit.co/vaps41.dev@gmail.com" method="post">
+                <input type="text" name="nome" placeholder="Nome">
+                <input type="email" name="email" placeholder="E-mail">
+                <input type="tel" name="telefone" placeholder="Telefone">
+                <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                <input type="submit" value="Solicite um orçamento" class="cta">
+            </form>
+        </div>
+    </div>
+    <div class="scroll-to-top" onclick="scrollToTop()"><b>⬆</b></div>
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script src="rellax.min.js"></script> <!-- Certifique-se de que o caminho para o arquivo Rellax.js esteja correto -->
+    <script>
+        var rellax = new Rellax('.rellax'); // Inicializa Rellax para os elementos com a classe 'rellax'
+
+        // Função para rolar para o topo suavemente
+        function scrollToTop() {
+            window.scrollTo({
+                top:0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</body>
+</html>
